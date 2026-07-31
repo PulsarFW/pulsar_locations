@@ -1,0 +1,27 @@
+fx_version 'cerulean'
+game 'gta5'
+
+name 'Pulsar Locations'
+description 'Named world locations, spawn points and other fixed coordinates'
+author 'Artmines - maintained for Pulsar Framework'
+url 'https://pulsarframe.work'
+version 'v1.0.0'
+
+version_check 'yes'
+github 'https://github.com/PulsarFW/pulsar_locations'
+
+client_script '@pulsar_core/components/cl_error.lua'
+shared_script '@pulsar_core/core/sh_pulsar.lua'
+client_script '@pulsar_pwnzor/client/check.lua'
+
+client_scripts({
+	"client/*.lua",
+})
+server_scripts({
+	"server/*.lua",
+})
+
+files({
+	"config/shared.lua",
+})
+lua54 'yes'
