@@ -87,6 +87,7 @@ LOCATIONS = {
 		ensureLocationsTable(function()
 			plsr.Database:Query("SELECT `id`, `data` FROM `locations` WHERE `type` = ?", { locType }, function(success, rows)
 				if not success then
+					cb({})
 					return
 				end
 				local results = {}
