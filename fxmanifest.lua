@@ -5,7 +5,7 @@ name 'Pulsar Locations'
 description 'Named world locations, spawn points and other fixed coordinates'
 author 'Artmines - maintained for Pulsar Framework'
 url 'https://pulsarframe.work'
-version 'v1.0.0'
+version 'v1.0.1'
 
 version_check 'yes'
 github 'https://github.com/PulsarFW/pulsar_locations'
